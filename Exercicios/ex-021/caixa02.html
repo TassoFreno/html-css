@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(162, 158, 158);
+        }
+        header{
+            width: 600px;
+        background-color: white;
+        padding: 10px;
+        margin: 0px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius:10px 0px ;
+        }
+        nav{
+            background-color: rgb(59, 233, 68);
+            padding: 3px;
+            text-decoration: none;
+            font-weight: bold;
+             color: white;
+            
+            margin-right: 30px;
+
+            box-shadow: 4px 4px 9px 0px  rgba(0, 0, 0, 0.493);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+        article > aside{
+            background-color: rgb(166, 162, 162);
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(202, 217, 231);
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px
+             20px rgba(242, 34, 221, 0.459);
+             animation:float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-25%);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    
+
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"> 
+            <p>Esporte, Politica & Tecnologia</p>
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit iusto quos molestiae dicta saepe nihil voluptatem nulla necessitatibus magnam aliquid officiis tempora eaque, nemo repellendus in deleniti labore? Consequuntur!</p>
+
+                <aside>
+                    <p>Artigo Escrito Por Cerebro</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido Pelo Curiosidade de Ad</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
