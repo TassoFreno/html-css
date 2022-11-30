@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas </title>
+    <style>
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid gray;
+            padding: 10px;
+        }
+       tr.enzo {
+            background-color: rgb(37, 219, 37);
+        }
+
+        caption{
+           font-weight: bolder;
+            font-size: 1.3em;
+            padding: 10px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+        }
+        col.cNome {
+            background-color: aqua;
+        }
+
+        col.cSexo {
+            background-color: rgb(119, 125, 242);
+        }
+
+        col.cProf {
+            background-color: rgb(77, 199, 134);
+        }
+
+        col.cIdade {
+            background-color: rosybrown;
+        }
+</style>
+    
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+                    <col class="cNome" >
+                    <col class="cSexo">
+                    <col class="cIdade">
+                    <col class="cProf">
+</colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+
+        <tr>
+            <td>Kelly Gomes</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Neymar Junior</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Pedreiro</td>
+        </tr>
+
+        <tr>
+            <td>Camila Pitanga</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Engenheira</td>
+        </tr>
+
+        <tr>
+            <td class="enzo">Enzo Gabriel</td>
+            <td>M</td>
+            <td>7</td>
+            <td>Jogador de Futebol</td>
+        </tr>
+
+        <tr>
+            <td>Galvao Bueno</td>
+            <td>M</td>
+            <td>100</td>
+            <td>Corneteiro</td>
+        </tr>
+
+        <tr>
+            <td>Jade Picon</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Herdeira</td>
+        </tr>
+
+
+    </table>
+    
+</body>
+</html>
