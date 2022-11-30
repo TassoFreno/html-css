@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        caption{
+           font-weight: bold;
+            font-size: 1.3em;
+            padding: 10px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios Tabelas</h1>
+    <table>
+        <caption>
+
+            Filmes Favoritos
+
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+
+
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+
+
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+
+            </tr>
+
+            <tr>
+                <td>Claudia Mello</td>
+                <td>Homem Formiga</td>
+                <td>Matrix</td>
+                <td>Peppa Pig</td>
+            </tr>
+
+            <th rowspan="3" scope="rowgroup">Homens</th>
+            <td>Bruno Mendonca</td>
+            <td>Intocaveis</td>
+            <td>Amnesia</td>
+            <td>Gladiador</td>
+
+            <tr>
+                <td>Daniel Lourenco</td>
+                <td>Wall Street</td>
+                <td>Panico</td>
+                <td>Pantera Negra</td>
+            </tr>
+
+            <tr>
+                <td>Fabiano Motta</td>
+                <td>Star Wars</td>
+                <td>Taxi Driver</td>
+                <td>Karate Kid</td>
+            </tr>
+
+            <tfoot>
+                <tr>
+                    <th colspan="4" scope="row">Total</th>
+                    <td>1000</td>
+                </tr>
+            </tfoot>
+
+
+
+        </tbody>
+
+
+
+
+
+    </table>
+    
+    
+    
+</body>
+</html>
